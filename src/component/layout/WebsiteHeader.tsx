@@ -38,7 +38,7 @@ export function WebsiteHeader(){
             </div>
 
             <Link
-                href="/src/app/(auth)/auth/login">
+                href="/auth/login">
                 <Button
 
                     title="login"
@@ -47,7 +47,7 @@ export function WebsiteHeader(){
 
             </Link>
             <Link
-                href="/src/app/(auth)/auth/sign-up">
+                href="/auth/sign-up">
                 <Button
 
                     title="sign up"
