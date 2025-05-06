@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import Button from "@/component/bouton";
+import Button from "@/component/Bouton";
 
 export default function SignupPage() {
   return (
@@ -44,7 +44,7 @@ export default function SignupPage() {
 
           <p className="mt-4 text-center text-sm">
             pas de compte ?{" "}
-            <Link href="/auth/sign-up" className="text-red-500 hover:underline">
+            <Link href="/src/app/(auth)/auth/sign-up" className="text-red-500 hover:underline">
               inscription
             </Link>
           </p>

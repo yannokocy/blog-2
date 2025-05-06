@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Button from "@/component/bouton";
+import Button from "@/component/Bouton";
 export default function SignupPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-l from-blue-400 px-3">
@@ -62,7 +62,7 @@ export default function SignupPage() {
 
           <p className="mt-4 text-center text-sm">
             Déjà inscrit ?{" "}
-            <Link href="/auth/login" className="text-green-500 hover:underline">
+            <Link href="/src/app/(auth)/auth/login" className="text-green-500 hover:underline">
               Se connecter
             </Link>
           </p>
