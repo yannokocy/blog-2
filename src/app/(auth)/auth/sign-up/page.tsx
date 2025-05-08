@@ -8,7 +8,9 @@ export default function SignupPage() {
 
         <form className="space-y-4">
           <div>
-            <label htmlFor="nom" className="block text-sm font-medium">Nom complet</label>
+            <label htmlFor="nom" className="block text-sm font-medium">
+              Nom complet
+            </label>
             <input
               type="text"
               id="nom"
@@ -19,7 +21,9 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="email" className="block text-sm font-medium">Email</label>
+            <label htmlFor="email" className="block text-sm font-medium">
+              Email
+            </label>
             <input
               type="email"
               id="email"
@@ -30,7 +34,9 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="password" className="block text-sm font-medium">Mot de passe</label>
+            <label htmlFor="password" className="block text-sm font-medium">
+              Mot de passe
+            </label>
             <input
               type="password"
               id="password"
@@ -41,7 +47,12 @@ export default function SignupPage() {
           </div>
 
           <div>
-            <label htmlFor="conf-password" className="block text-sm font-medium">Confirmer le mot de passe</label>
+            <label
+              htmlFor="conf-password"
+              className="block text-sm font-medium"
+            >
+              Confirmer le mot de passe
+            </label>
             <input
               type="password"
               id="conf-password"
@@ -54,7 +65,7 @@ export default function SignupPage() {
           {/* Lien qui remplace le bouton submit */}
           <Link href="/blog" passHref>
             <Button
-            title="s'inscrire"
+              title="s'inscrire"
               type="button"
               className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-md"
             />
@@ -62,7 +73,10 @@ export default function SignupPage() {
 
           <p className="mt-4 text-center text-sm">
             Déjà inscrit ?{" "}
-            <Link href="/src/app/(auth)/auth/login" className="text-green-500 hover:underline">
+            <Link
+              href="/src/app/(auth)/auth/login"
+              className="text-green-500 hover:underline"
+            >
               Se connecter
             </Link>
           </p>
@@ -71,8 +85,3 @@ export default function SignupPage() {
     </div>
   );
 }
-
-
-
-
-

@@ -1,1 +1,1 @@
-export function myFunction(a: number, b: number): number
+export function myFunction(a: number, b: number): number;

@@ -1,3 +1,4 @@
+import { BlogHeader } from "@/component/layout/BlogHeader";
 
 export default function BlogLayout({
   children,
@@ -5,6 +6,9 @@ export default function BlogLayout({
   children: React.ReactNode;
 }>) {
   return (
-   <main>{children}</main>
+    <main>
+      <BlogHeader />
+      {children}
+    </main>
   );
 }
