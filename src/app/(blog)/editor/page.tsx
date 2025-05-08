@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useEditorController } from "@/app/(blog)/editor/use-editor-controller";
 
 export default function InputPage() {

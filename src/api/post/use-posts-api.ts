@@ -1,3 +1,5 @@
+"use client";
+
 import { createPost } from "@/api/post/actions";
 
 export const usePostsApi = () => {
