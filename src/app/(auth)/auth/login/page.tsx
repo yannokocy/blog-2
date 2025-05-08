@@ -59,10 +59,7 @@ export default function SignupPage() {
 
           <p className="mt-4 text-center text-sm">
             pas de compte ?{" "}
-            <Link
-              href="/auth/sign-up"
-              className="text-red-500 hover:underline"
-            >
+            <Link href="/auth/sign-up" className="text-red-500 hover:underline">
               inscription
             </Link>
           </p>
@@ -71,8 +68,3 @@ export default function SignupPage() {
     </div>
   );
 }
-
-
-
-
-

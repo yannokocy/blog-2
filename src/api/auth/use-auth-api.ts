@@ -16,7 +16,7 @@ export const useAuthApi = () => {
           JSON.stringify(res.data.data.accessToken),
         );
 
-        router.push("/editor");
+        router.push("/my-posts");
       }
     } catch (error) {
       console.log(error);
