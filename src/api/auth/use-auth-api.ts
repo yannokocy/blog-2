@@ -11,10 +11,7 @@ export const useAuthApi = () => {
       const res: any = await login(data);
 
       if (res.data.data) {
-        localStorage.setItem(
-          "app-access-token",
-          JSON.stringify(res.data.data.accessToken),
-        );
+        localStorage.setItem("app-access-token", res.data.data.accessToken);
 
         router.push("/my-posts");
       }

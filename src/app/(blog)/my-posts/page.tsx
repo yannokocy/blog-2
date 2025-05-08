@@ -9,8 +9,8 @@ export default function MyPostsPage() {
 
   return (
     <main className="grid grid-cols-3 gap-3">
-      {(posts ?? []).map((item: any) => (
-        <div className="col-span-1">
+      {(posts ?? []).map((item: any, index: number) => (
+        <div className="col-span-1" key={index}>
           <Post {...item} />
         </div>
       ))}

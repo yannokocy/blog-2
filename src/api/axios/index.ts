@@ -6,9 +6,9 @@ const AxiosInstance = axios.create({
   baseURL: "http://localhost:3333/api",
 });
 
-const token = localStorage.getItem("app-access-token") ?? "";
-AxiosInstance.defaults.headers["Authorization"] = `Bearer ${token}`;
-
-// export const callAction = (endPoint: string, method: axios.Method)
+if (typeof window !== "undefined") {
+  const token = localStorage.getItem("app-access-token") ?? "";
+  AxiosInstance.defaults.headers.Authorization = `Bearer ${token}`;
+}
 
 export default AxiosInstance;
