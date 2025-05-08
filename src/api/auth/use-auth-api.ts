@@ -27,7 +27,7 @@ export const useAuthApi = () => {
     try {
       const res: any = await register(data);
 
-      if (res.data) {
+      if (res.data.data) {
         await onLogin({ email: data.email, password: data.password });
       }
     } catch (error) {
