@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a043581b-3ffa-48b9-981f-3ffcd5e04635" name="Changes" comment="refactor" />
+    <list default="true" id="a043581b-3ffa-48b9-981f-3ffcd5e04635" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(nav)/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(nav)/formation/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(nav)/propos/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(profile)/pro/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/auth/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/auth/login/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(blog)/input/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/input/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(website)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(website)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/layout/WebsiteHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/layout/WebsiteHeader.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,11 +57,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="BLG-1" />
-                    <option name="lastUsedInstant" value="1746696049" />
+                    <option name="lastUsedInstant" value="1746697471" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1746696036" />
+                    <option name="lastUsedInstant" value="1746697412" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="branch-10" />
@@ -83,7 +96,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "BLG-1",
+    "git-widget-placeholder": "Merging BLG-1",
     "javascript.nodejs.core.library.configured.version": "20.18.1",
     "javascript.nodejs.core.library.typings.version": "20.17.45",
     "last_opened_file_path": "/home/elkira01/workspace/PROJECTS/blog-2/src/app/(blog)",
@@ -162,7 +175,7 @@
       <workItem from="1746524225197" duration="11764000" />
       <workItem from="1746538961132" duration="63000" />
       <workItem from="1746681200157" duration="9659000" />
-      <workItem from="1746695563732" duration="1559000" />
+      <workItem from="1746695563732" duration="2349000" />
     </task>
     <task id="LOCAL-00001" summary="refactor">
       <option name="closed" value="true" />
