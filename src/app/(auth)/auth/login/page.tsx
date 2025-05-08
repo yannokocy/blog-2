@@ -18,7 +18,7 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-red-400 px-3">
+    <div className="min-h-screen flex items-center justify-center bg-gray-200 px-3">
       <div className="bg-green-200 p-8 rounded-2xl shadow-xl w-full max-w-md">
         <h2 className="text-2xl font-bold text-center mb-6">Inscription</h2>
 
@@ -50,6 +50,7 @@ export default function SignupPage() {
           </div>
 
           {/* Lien qui remplace le bouton submit */}
+
           <Button
             title="connexion"
             type="submit"
@@ -59,7 +60,7 @@ export default function SignupPage() {
           <p className="mt-4 text-center text-sm">
             pas de compte ?{" "}
             <Link
-              href="/src/app/(auth)/auth/sign-up"
+              href="/auth/sign-up"
               className="text-red-500 hover:underline"
             >
               inscription
