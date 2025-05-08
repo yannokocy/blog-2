@@ -1,4 +1,4 @@
-import {WebsiteHeader} from "@/component/layout/WebsiteHeader";
+import { WebsiteHeader } from "@/component/layout/WebsiteHeader";
 
 export default function WebsiteLayout({
   children,
@@ -7,7 +7,7 @@ export default function WebsiteLayout({
 }>) {
   return (
     <main>
-      <WebsiteHeader/>
+      <WebsiteHeader />
       {children}
       <footer> kocy telecom</footer>
     </main>
