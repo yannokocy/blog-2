@@ -19,7 +19,7 @@ export default async function Home() {
                 </div>
             )}
         </div>
-        <Link href="/post">
+        <Link href="/input">
             <Button
                 title="poster"
                 type="submit"

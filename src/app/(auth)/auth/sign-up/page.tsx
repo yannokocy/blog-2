@@ -52,17 +52,16 @@ export default function SignupPage() {
           </div>
 
           {/* Lien qui remplace le bouton submit */}
-          <Link href="/blog" passHref>
+          <Link href="/" passHref> 
             <Button
-            title="s'inscrire"
+              title="s'inscrire"
               type="button"
-              className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-md"
-            />
+              className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-md" onClick={undefined}/>
           </Link>
 
           <p className="mt-4 text-center text-sm">
             Déjà inscrit ?{" "}
-            <Link href="/src/app/(auth)/auth/login" className="text-green-500 hover:underline">
+            <Link href="/auth/login" className="text-green-500 hover:underline">
               Se connecter
             </Link>
           </p>

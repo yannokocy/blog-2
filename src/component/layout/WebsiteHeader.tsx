@@ -3,7 +3,7 @@ import Button from "@/component/Bouton";
 
 export function WebsiteHeader(){
 
-    return<header className="w-full h-20 bg-green-900 py-5 text-gray-950 px-6 flex items-center justify-between">
+    return<header className="w-full h-20 bg-gray-300 py-5 text-gray-950 px-6 flex items-center justify-between">
         {/* Titre */}
         <h1 className="text-2xl font-bold text-blue-400">Mon Blog</h1>
 
@@ -43,7 +43,7 @@ export function WebsiteHeader(){
 
                     title="login"
                     type="button"
-                    className="bg-blue-500 hover:bg-blue-600 pt-2 py-3 px-4 mt-3 rounded text-white" onClick={undefined}          />
+                    className="bg-blue-500 hover:bg-blue-600 pt-2 py-3 px-4 mt-3 rounded text-white" onClick={undefined}/>
 
             </Link>
             <Link
@@ -52,7 +52,7 @@ export function WebsiteHeader(){
 
                     title="sign up"
                     type="button"
-                    className="bg-green-500 hover:bg-green-600 pt-2 py-3 px-4 mt-3 rounded text-white" onClick={undefined}            />
+                    className="bg-green-500 hover:bg-green-600 pt-2 py-3 px-4 mt-3 rounded text-white" onClick={undefined}/>
             </Link>
         </div>
     </header>
