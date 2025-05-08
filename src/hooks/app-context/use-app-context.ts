@@ -24,7 +24,7 @@ export const useAppContext = () => {
         }
         defineProfile({ profile: profile, roles: roles });
       } catch (error) {
-        navigate.push("/auth/login");
+        // navigate.push("/auth/login");
       }
     })();
   }, []);

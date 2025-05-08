@@ -1,7 +1,6 @@
 "use client";
 
 import { login, register } from "@/api/auth/actions";
-import axios from "../axios";
 import { useRouter } from "next/navigation";
 
 export const useAuthApi = () => {
@@ -11,12 +10,11 @@ export const useAuthApi = () => {
     try {
       const res: any = await login(data);
 
-      if (res.data) {
+      if (res.data.data) {
         localStorage.setItem(
           "app-access-token",
           JSON.stringify(res.data.data.accessToken),
         );
-        axios.defaults.headers["Authorization"] = res.data.data.accessToken;
 
         router.push("/input");
       }

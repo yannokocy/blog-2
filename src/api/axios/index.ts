@@ -7,7 +7,7 @@ const AxiosInstance = axios.create({
 });
 
 const token = localStorage.getItem("app-access-token") ?? "";
-AxiosInstance.defaults.headers.common["Authorization"] =
+AxiosInstance.defaults.headers["Authorization"] =
   `Bearer ${JSON.parse(JSON.stringify(token))}`;
 
 // export const callAction = (endPoint: string, method: axios.Method)
