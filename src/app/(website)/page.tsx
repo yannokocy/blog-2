@@ -6,9 +6,9 @@ import axios from "axios";
 
 export default async function Home() {
 
-    const response = await fetch('http://localhost:3333/api/posts', { method: 'get' })
+    const response = await axios.get("http://localhost:3333/api/posts" )
 
-    const posts = await response.json()
+    const posts =  response.data
 
     return (
     <div className="h-screen flex flex-col">

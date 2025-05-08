@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a043581b-3ffa-48b9-981f-3ffcd5e04635" name="Changes" comment="refactor" />
+    <list default="true" id="a043581b-3ffa-48b9-981f-3ffcd5e04635" name="Changes" comment="refactor">
+      <change beforePath="$PROJECT_DIR$/../blog-api/app/controllers/market/post/posts_controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/app/controllers/market/post/posts_controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/database/migrations/1745608150169_create_update_users_table.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/database/migrations/1745608150169_create_update_users_table.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/database/migrations/1745693681296_update_posts_table.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/database/migrations/1745693681296_update_posts_table.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/auth/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/auth/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(website)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(website)/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,7 +36,7 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../blog-api" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -73,7 +84,6 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2wiV8m6jqvdVuh8c8qMB80Gcljq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,6 +92,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
     "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.18.1",
@@ -94,11 +105,17 @@
     "nodejs_interpreter_path": "/home/elkira01/.nvm/versions/node/v20.18.1/bin/node",
     "nodejs_package_manager_path": "npm",
     "npm.dev (1).executor": "Run",
+    "npm.dev (2).executor": "Run",
     "npm.dev.executor": "Run",
     "prettierjs.PrettierConfiguration.Package": "/home/elkira01/workspace/PROJECTS/blog-2/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/home/elkira01/workspace/PROJECTS/blog-2/node_modules/typescript/lib",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "C:\\Users\\hannatu\\blog-api\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -116,9 +133,19 @@
       <recent name="$PROJECT_DIR$/src/app/(auth)" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.dev (2)">
     <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/../../POJECTS/blog-api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../blog-api/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
@@ -133,12 +160,13 @@
       <scripts>
         <script value="dev" />
       </scripts>
-      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v20.18.1/bin/node" />
+      <node-interpreter value="$PROJECT_DIR$/../.nvm/versions/node/v20.18.1/bin/node" />
       <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev (2)" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.dev (1)" />
       </list>
@@ -246,5 +274,9 @@
     <MESSAGE value="resolved conflicts" />
     <MESSAGE value="refactor" />
     <option name="LAST_COMMIT_MESSAGE" value="refactor" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

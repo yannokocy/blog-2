@@ -32,7 +32,7 @@ export default function SignupPage() {
             <input
               type="text"
               id="nom"
-              name="nom"
+              name="fullname"
               required
               className="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
@@ -59,22 +59,6 @@ export default function SignupPage() {
               type="password"
               id="password"
               name="password"
-              required
-              className="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
-
-          <div>
-            <label
-              htmlFor="conf-password"
-              className="block text-sm font-medium"
-            >
-              Confirmer le mot de passe
-            </label>
-            <input
-              type="password"
-              id="conf-password"
-              name="conf-password"
               required
               className="w-full mt-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
