@@ -2,7 +2,7 @@ import Link from "next/link";
 import Button from "@/component/Bouton";
 export default function SignupPage() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-l from-blue-400 px-3">
+    <div className="min-h-screen flex items-center justify-center bg-gray-200 px-3">
       <div className="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md">
         <h2 className="text-2xl font-bold text-center mb-6">Inscription</h2>
 
@@ -63,7 +63,7 @@ export default function SignupPage() {
           </div>
 
           {/* Lien qui remplace le bouton submit */}
-          <Link href="/blog" passHref>
+          <Link href="/" passHref>
             <Button
               title="s'inscrire"
               type="button"
@@ -74,7 +74,7 @@ export default function SignupPage() {
           <p className="mt-4 text-center text-sm">
             Déjà inscrit ?{" "}
             <Link
-              href="/src/app/(auth)/auth/login"
+              href="/auth/login"
               className="text-green-500 hover:underline"
             >
               Se connecter

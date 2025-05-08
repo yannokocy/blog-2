@@ -8,7 +8,7 @@ export default function InputPage() {
         <div className="w-40 p-4 bg-gray-800 flex flex-col ">
             <div className="space-y-10 pt-20">
                  <Link href="/pro">
-                <button className="px-10 py-2 bg-white border border-blue-300 hover:bg-blue-100 rounded-2xl shadow-lg">
+                <button className="px-10 py-2 mb-2 bg-white border border-blue-300 hover:bg-blue-100 rounded-2xl shadow-lg">
                     profile
                 </button>
                 </Link>
