@@ -2,16 +2,23 @@ import Link from "next/link";
 
 export const BlogMenu = () => {
   return (
-    <div className="w-40 p-4 bg-gray-800 flex flex-col ">
+    <div className="w-60 p-3 bg-gray-800 flex flex-col ">
       <div className="space-y-10 pt-20">
-        <Link href="/pro">
-          <button className="px-10 py-2 mb-2 bg-white border border-blue-300 hover:bg-blue-100 rounded-2xl shadow-lg">
+
+        <Link href="">
+          <button className="px-19 py-2 mb-4 bg-white border border-blue-300 hover:bg-blue-100 rounded-sm shadow-lg">
+            liste
+          </button>
+        </Link>
+
+        <Link href="">
+          <button className="px-17 py-2 mb-4 bg-white border border-blue-300 hover:bg-blue-100 rounded-sm shadow-lg">
             profile
           </button>
         </Link>
 
         <Link href="">
-          <button className="px-9 py-2 bg-white border border-blue-300 hover:bg-blue-100 rounded-2xl shadow-lg">
+          <button className="px-16 py-2 bg-white border border-blue-300 hover:bg-blue-100 rounded-sm shadow-lg">
             settings
           </button>
         </Link>
