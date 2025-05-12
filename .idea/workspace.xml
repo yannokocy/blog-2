@@ -4,14 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a043581b-3ffa-48b9-981f-3ffcd5e04635" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="cba4edd4-96c2-46f3-b58d-2744c289b632" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/image/Image 9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(blog)/profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(blog)/profile/view-profile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/app/controllers/market/post/posts_controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/app/controllers/market/post/posts_controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/database/migrations/1745608150169_create_update_users_table.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/database/migrations/1745608150169_create_update_users_table.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-api/database/migrations/1745693681296_update_posts_table.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/database/migrations/1745693681296_update_posts_table.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(nav)/contact/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/post/affiche-post.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(nav)/formation/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/post-affiche/affiche-post.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(nav)/propos/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/post-affiche/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/layout/BlogMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/layout/BlogMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(auth)/auth/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/auth/sign-up/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(blog)/editor/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/editor/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(blog)/post-affiche/affiche-post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/post-affiche/affiche-post.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(profile)/pro/page.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,141 +38,63 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;elkira01&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yannokocy"
   }
-}</component>
-  <component name="GitToolBoxStore">
-    <option name="recentBranches">
-      <RecentBranches>
-        <option name="branchesForRepo">
-          <list>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
-                  <RecentBranch>
-                    <option name="branchName" value="BLG-1" />
-                    <option name="lastUsedInstant" value="1746697471" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1746697412" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="branch-10" />
-                    <option name="lastUsedInstant" value="1746695984" />
-                  </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-          </list>
-        </option>
-      </RecentBranches>
-    </option>
-  </component>
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/yannokocy/blog-2.git",
     "accountId": "e6aa003b-1b3c-48fb-a28b-3f2b93a58910"
   }
 }]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2wiV8m6jqvdVuh8c8qMB80Gcljq" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2wzQozRfJAXFoFVbD3AgfJJVR96" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "20.19.0",
-    "javascript.nodejs.core.library.typings.version": "20.17.46",
     "js.debugger.nextJs.config.created.client": "true",
-    "last_opened_file_path": "/home/elkira01/workspace/PROJECTS/blog-2/src/app/(blog)",
+    "js.debugger.nextJs.config.created.server": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "npm.dev (1).executor": "Run",
-    "npm.dev (2).executor": "Run",
-    "npm.dev.executor": "Run",
-    "prettierjs.PrettierConfiguration.Package": "/home/elkira01/workspace/PROJECTS/blog-2/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\hannatu\\mon-projet\\node_modules\\prettier",
     "ts.external.directory.path": "C:\\Users\\hannatu\\mon-projet\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
-    ]
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/app/(blog)" />
-      <recent name="$PROJECT_DIR$/src/app/(auth)" />
-      <recent name="$PROJECT_DIR$/src/app/(website)" />
-      <recent name="$PROJECT_DIR$/src/app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/api/auth" />
-      <recent name="$PROJECT_DIR$/src/app/(auth)" />
-      <recent name="$PROJECT_DIR$/src/app/(website)/view-post/[id]/[slug]" />
-      <recent name="$PROJECT_DIR$/src/app/(website)/view-post/[id]" />
-      <recent name="$PROJECT_DIR$/src/app/(blog)" />
+      <recent name="C:\Users\hannatu\mon-projet\public\image" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.Next.js: server-side">
     <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
       <method v="2" />
     </configuration>
-    <configuration name="dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../../POJECTS/blog-api/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev (2)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/../blog-api/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -168,13 +104,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.dev (1)" />
-        <item itemvalue="npm.dev (2)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -184,124 +113,18 @@
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a043581b-3ffa-48b9-981f-3ffcd5e04635" name="Changes" comment="" />
-      <created>1746524223910</created>
+      <changelist id="cba4edd4-96c2-46f3-b58d-2744c289b632" name="Changes" comment="" />
+      <created>1747042107865</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1746524223910</updated>
-      <workItem from="1746524225197" duration="11764000" />
-      <workItem from="1746538961132" duration="63000" />
-      <workItem from="1746681200157" duration="9659000" />
-      <workItem from="1746695563732" duration="2349000" />
-      <workItem from="1746698385673" duration="5376000" />
-      <workItem from="1746719843277" duration="2738000" />
-      <workItem from="1746736070401" duration="29591000" />
-      <workItem from="1746799319414" duration="2492000" />
+      <updated>1747042107865</updated>
+      <workItem from="1747042113137" duration="17369000" />
     </task>
-    <task id="LOCAL-00001" summary="refactor">
-      <option name="closed" value="true" />
-      <created>1746529265707</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1746529265707</updated>
-    </task>
-    <task id="LOCAL-00002" summary="refactor">
-      <option name="closed" value="true" />
-      <created>1746536168898</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1746536168898</updated>
-    </task>
-    <task id="LOCAL-00003" summary="refactor">
-      <option name="closed" value="true" />
-      <created>1746536281493</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1746536281493</updated>
-    </task>
-    <task id="LOCAL-00004" summary="refactor">
-      <option name="closed" value="true" />
-      <created>1746699520109</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1746699520109</updated>
-    </task>
-    <task id="LOCAL-00005" summary="refactor">
-      <option name="closed" value="true" />
-      <created>1746700680783</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1746700680783</updated>
-    </task>
-    <task id="LOCAL-00006" summary="refactor">
-      <option name="closed" value="true" />
-      <created>1746704232419</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1746704232419</updated>
-    </task>
-    <task id="LOCAL-00007" summary="refactor">
-      <option name="closed" value="true" />
-      <created>1746719338070</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1746719338070</updated>
-    </task>
-    <task id="LOCAL-00008" summary="fix">
-      <option name="closed" value="true" />
-      <created>1746722340851</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1746722340852</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="resolved conflicts" />
-    <MESSAGE value="refactor" />
-    <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

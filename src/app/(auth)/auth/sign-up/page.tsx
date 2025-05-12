@@ -74,7 +74,7 @@ export default function SignupPage() {
           <p className="mt-4 text-center text-sm">
             Déjà inscrit ?{" "}
             <Link
-              href="/src/app/(auth)/auth/login"
+              href="/auth/login"
               className="text-green-500 hover:underline"
             >
               Se connecter

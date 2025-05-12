@@ -7,7 +7,7 @@ export default function InputPage() {
 
   return (
     <div className="flex py-12 gap-x-3">
-      <aside className="w-3/4 flex flex-col items-center space-y-6 border border-blue-300 p-6">
+      <Header className="w-3/4 flex flex-col items-center space-y-6 border border-blue-300 p-6">
         <input
           onChange={(evt) => changeTitle(evt.target.value)}
           value={post.title}
@@ -29,7 +29,7 @@ export default function InputPage() {
         >
           Enregistrer
         </button>
-      </aside>
+      </Header>
 
       {/* Boutons de fichier à droite */}
       <aside className="w-1/4 flex flex-col justify-start space-y-4">
