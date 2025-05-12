@@ -5,27 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cba4edd4-96c2-46f3-b58d-2744c289b632" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/image/Image 9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(blog)/profile/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(blog)/profile/view-profile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/app/controllers/market/post/posts_controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/app/controllers/market/post/posts_controller.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/database/migrations/1745608150169_create_update_users_table.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/database/migrations/1745608150169_create_update_users_table.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-api/database/migrations/1745693681296_update_posts_table.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-api/database/migrations/1745693681296_update_posts_table.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(auth)/auth/sign-up/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(auth)/auth/sign-up/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(blog)/editor/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/editor/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(blog)/post-affiche/affiche-post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/post-affiche/affiche-post.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(profile)/pro/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(blog)/profile/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(blog)/profile/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1747042107865</updated>
-      <workItem from="1747042113137" duration="17369000" />
+      <workItem from="1747042113137" duration="19243000" />
     </task>
     <servers />
   </component>
